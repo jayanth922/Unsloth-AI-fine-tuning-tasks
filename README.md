@@ -42,6 +42,8 @@ Demonstrates how to perform a full parameter fine-tune on the ultra-lightweight 
 ## 2. LoRA Fine-tuning (Smollm2 135M)
 **Notebook:** [`02_lora_finetuning_smollm2.ipynb`](./02_lora_finetuning_smollm2.ipynb)
 
+Youtube Demo : https://youtu.be/6fbyxz-1QZQ
+
 Implements **LoRA (Low-Rank Adaptation)** on the same Smollm2 model. This shows the efficiency of LoRA compared to full fine-tuning, using significantly less memory while achieving comparable results.
 
 ## 3. Reinforcement Learning (DPO/ORPO)
