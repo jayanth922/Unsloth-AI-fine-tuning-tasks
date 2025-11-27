@@ -49,6 +49,8 @@ Implements **LoRA (Low-Rank Adaptation)** on the same Smollm2 model. This shows 
 ## 3. Reinforcement Learning (DPO/ORPO)
 **Notebook:** [`03_rl_dpo.ipynb`](./03_rl_dpo.ipynb)
 
+Youtube Demo : https://youtu.be/9Vb0NfZXB0Y
+
 Uses **Direct Preference Optimization (DPO)** to align a model (`unsloth/zephyr-sft-bnb-4bit`) with human preferences. We use the `mlabonne/orpo-dpo-mix-40k` dataset containing "chosen" vs "rejected" responses.
 
 ## 4. RL with GRPO (Reasoning)
