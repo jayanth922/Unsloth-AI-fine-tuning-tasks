@@ -35,6 +35,8 @@ pip install --no-deps "unsloth[colab-new] @ git+https://github.com/unslothai/uns
 ## 1. Full Fine-tuning (Smollm2 135M)
 **Notebook:** [`01_full_finetuning_smollm2.ipynb`](./01_full_finetuning_smollm2.ipynb)
 
+Youtube Demo : https://youtu.be/uomRuBPA8Qs
+
 Demonstrates how to perform a full parameter fine-tune on the ultra-lightweight `HuggingFaceTB/SmolLM2-135M` model. This is ideal for understanding the basics of SFT (Supervised Fine-Tuning) without the complexity of adapters.
 
 ## 2. LoRA Fine-tuning (Smollm2 135M)
