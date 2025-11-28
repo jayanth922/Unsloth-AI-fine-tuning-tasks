@@ -33,7 +33,7 @@ pip install --no-deps "unsloth[colab-new] @ git+https://github.com/unslothai/uns
 ---
 
 ## 1. Full Fine-tuning (Smollm2 135M)
-**Notebook:** [`01_full_finetuning_smollm2.ipynb`](./01_full_finetuning_smollm2.ipynb)
+**Notebook:** [`01_full_finetuning_smollm2.ipynb`](https://colab.research.google.com/drive/1997Mv-en7N8-RXctDKDLvYaZPz5jfs-8?usp=sharing)
 
 Youtube Demo : https://youtu.be/uomRuBPA8Qs
 
