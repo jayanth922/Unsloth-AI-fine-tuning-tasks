@@ -56,6 +56,8 @@ Uses **Direct Preference Optimization (DPO)** to align a model (`unsloth/zephyr-
 ## 4. RL with GRPO (Reasoning)
 **Notebook:** [`04_rl_grpo.ipynb`](./04_rl_grpo.ipynb)
 
+Youtube Demo : https://youtu.be/Z7X_KFSefLc
+
 Explores **GRPO (Group Relative Policy Optimization)**, a cutting-edge technique for reasoning tasks. We train `Llama-3.2-3B-Instruct` on the **GSM8K** math dataset, rewarding the model for generating correct answers.
 
 ## 5. Continued Pretraining (New Language)
