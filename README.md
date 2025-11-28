@@ -70,6 +70,8 @@ Teaches an LLM (`Llama-3.2-1B`) a completely new language (Hindi) using **Contin
 ## 6. Mental Health Chatbot
 **Notebook:** [`06_mental_health_finetune.ipynb`](./06_mental_health_finetune.ipynb)
 
+Youtube Demo : https://youtu.be/iXSqyWlaHGE
+
 Fine-tunes `Llama-3.2-3B-Instruct` to act as an empathetic Mental Health Counselor. We use the `Amod/mental_health_counseling_conversations` dataset and apply a specific chat template for optimal interaction.
 
 ## 7. Export to Ollama (GGUF)
