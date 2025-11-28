@@ -77,6 +77,8 @@ Fine-tunes `Llama-3.2-3B-Instruct` to act as an empathetic Mental Health Counsel
 ## 7. Export to Ollama (GGUF)
 **Notebook:** [`07_ollama_export.ipynb`](./07_ollama_export.ipynb)
 
+Youtube Demo : https://youtu.be/Nul4wis4weU
+
 The final step in the pipeline: exporting your fine-tuned model to **GGUF format**. This allows you to run your custom model locally using **Ollama**.
 
 ---
