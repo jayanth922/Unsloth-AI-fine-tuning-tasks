@@ -40,42 +40,42 @@ Youtube Demo : https://youtu.be/uomRuBPA8Qs
 Demonstrates how to perform a full parameter fine-tune on the ultra-lightweight `HuggingFaceTB/SmolLM2-135M` model. This is ideal for understanding the basics of SFT (Supervised Fine-Tuning) without the complexity of adapters.
 
 ## 2. LoRA Fine-tuning (Smollm2 135M)
-**Notebook:** [`02_lora_finetuning_smollm2.ipynb`](./02_lora_finetuning_smollm2.ipynb)
+**Notebook:** [`02_lora_finetuning_smollm2.ipynb`](https://colab.research.google.com/drive/1UmqzDAHjr4MlVjMMoZ9Q-NMrCKF89vrn?usp=sharing)
 
 Youtube Demo : https://youtu.be/6fbyxz-1QZQ
 
 Implements **LoRA (Low-Rank Adaptation)** on the same Smollm2 model. This shows the efficiency of LoRA compared to full fine-tuning, using significantly less memory while achieving comparable results.
 
 ## 3. Reinforcement Learning (DPO/ORPO)
-**Notebook:** [`03_rl_dpo.ipynb`](./03_rl_dpo.ipynb)
+**Notebook:** [`03_rl_dpo.ipynb`](https://colab.research.google.com/drive/1TdXvL0rKk0hdEzJquULQq8CU0R0s0g3V?usp=sharing)
 
 Youtube Demo : https://youtu.be/9Vb0NfZXB0Y
 
 Uses **Direct Preference Optimization (DPO)** to align a model (`unsloth/zephyr-sft-bnb-4bit`) with human preferences. We use the `mlabonne/orpo-dpo-mix-40k` dataset containing "chosen" vs "rejected" responses.
 
 ## 4. RL with GRPO (Reasoning)
-**Notebook:** [`04_rl_grpo.ipynb`](./04_rl_grpo.ipynb)
+**Notebook:** [`04_rl_grpo.ipynb`](https://colab.research.google.com/drive/1SsflmUQ9srAsfjvHmUa_bvQl_ybnMh3_?usp=sharing)
 
 Youtube Demo : https://youtu.be/Z7X_KFSefLc
 
 Explores **GRPO (Group Relative Policy Optimization)**, a cutting-edge technique for reasoning tasks. We train `Llama-3.2-3B-Instruct` on the **GSM8K** math dataset, rewarding the model for generating correct answers.
 
 ## 5. Continued Pretraining (New Language)
-**Notebook:** [`05_continued_pretraining.ipynb`](./05_continued_pretraining.ipynb)
+**Notebook:** [`05_continued_pretraining.ipynb`](https://colab.research.google.com/drive/10GwkTh_C4K6sjqe115n975OSGWrfmiYI?usp=sharing)
 
 Youtube Demo : https://youtu.be/USDnA4o_vJ4
 
 Teaches an LLM (`Llama-3.2-1B`) a completely new language (Hindi) using **Continued Pretraining** on the Oscar dataset. This involves training embedding layers and using raw text data.
 
 ## 6. Mental Health Chatbot
-**Notebook:** [`06_mental_health_finetune.ipynb`](./06_mental_health_finetune.ipynb)
+**Notebook:** [`06_mental_health_finetune.ipynb`](https://colab.research.google.com/drive/1enojeAcAnF-iXBpFwggLd2vTJB4hRU1j?usp=sharing)
 
 Youtube Demo : https://youtu.be/iXSqyWlaHGE
 
 Fine-tunes `Llama-3.2-3B-Instruct` to act as an empathetic Mental Health Counselor. We use the `Amod/mental_health_counseling_conversations` dataset and apply a specific chat template for optimal interaction.
 
 ## 7. Export to Ollama (GGUF)
-**Notebook:** [`07_ollama_export.ipynb`](./07_ollama_export.ipynb)
+**Notebook:** [`07_ollama_export.ipynb`](https://colab.research.google.com/drive/1Yg09xCr_PvyFupxMywPJkBwkDUn9A0Se?usp=sharing)
 
 Youtube Demo : https://youtu.be/Nul4wis4weU
 
