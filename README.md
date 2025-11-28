@@ -63,6 +63,8 @@ Explores **GRPO (Group Relative Policy Optimization)**, a cutting-edge technique
 ## 5. Continued Pretraining (New Language)
 **Notebook:** [`05_continued_pretraining.ipynb`](./05_continued_pretraining.ipynb)
 
+Youtube Demo : https://youtu.be/USDnA4o_vJ4
+
 Teaches an LLM (`Llama-3.2-1B`) a completely new language (Hindi) using **Continued Pretraining** on the Oscar dataset. This involves training embedding layers and using raw text data.
 
 ## 6. Mental Health Chatbot
